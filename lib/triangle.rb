@@ -18,7 +18,7 @@ class Triangle
     if self.invalid?
       begin
       raise TriangleError
-      rescue
+      # rescue
       end
     elsif sides.uniq.size == 1
       :equilateral
