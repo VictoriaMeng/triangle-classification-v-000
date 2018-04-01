@@ -15,12 +15,12 @@ class Triangle
   end
 
   def kind
-    if self.invalid?
+    # if self.invalid?
       begin
-      raise TriangleError
+      raise TriangleError if self.invalid?
       # rescue
       end
-    elsif sides.uniq.size == 1
+    if sides.uniq.size == 1
       :equilateral
     elsif sides.uniq.size == 2
       :isosceles
