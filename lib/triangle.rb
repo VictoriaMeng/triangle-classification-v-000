@@ -30,9 +30,9 @@ class Triangle
   end
 
   class TriangleError < StandardError
-    def message
-      "Each side must be greater than 0. The sum of each two sides must be greater than the third."
-    end
+    # def message
+    #   "Each side must be greater than 0. The sum of each two sides must be greater than the third."
+    # end
   end
 
 end
