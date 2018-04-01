@@ -38,6 +38,6 @@ class Triangle
 end
 
 
-triangle = Triangle.new(0, 0, 0)
-triangle.invalid?
-triangle.kind
+# triangle = Triangle.new(0, 0, 0)
+# triangle.invalid?
+# triangle.kind
