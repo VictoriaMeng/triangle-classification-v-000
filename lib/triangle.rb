@@ -16,9 +16,7 @@ class Triangle
 
   def kind
     if self.invalid?
-      begin
-        raise TriangleError
-      end
+      raise TriangleError
     elsif sides.uniq.size == 1
       :equilateral
     elsif sides.uniq.size == 2
