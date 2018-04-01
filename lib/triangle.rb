@@ -17,7 +17,6 @@ class Triangle
   def kind
     if self.invalid?
       begin
-
       rescue
         raise TriangleError
       end
